@@ -25,7 +25,7 @@ EM BREVE
 ## Tecnologias
 
 <div width="140px">
-    <img src="https://skillicons.dev/icons?i=vscode,react,css" />
+    <img src="https://skillicons.dev/icons?i=vscode,react,css,vite" />
 </div>
 
 ## Projeto em funcionamento
