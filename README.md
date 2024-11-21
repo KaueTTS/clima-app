@@ -41,7 +41,8 @@ Clique na imagem abaixo para assistir ao tutorial em vídeo!
 ```
 < INSTALADORES >
 
-
+npm create vite@latest ./ -- --template react
+npm install
 
 
 < INICIADORES >
