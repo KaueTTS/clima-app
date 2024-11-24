@@ -26,32 +26,32 @@ const App = () => {
       {/* Hourly Weather forecast list */}
       <div className="hourly-forecast">
         <ul className="weather-list">
-          <li className="weather-list">
+          <li className="weather-item">
             <p className="time">00:00</p>
             <img src="icons/clouds.svg" className="weather-icon" />
             <p className="temperature">20º</p>
           </li>
-          <li className="weather-list">
+          <li className="weather-item">
             <p className="time">00:00</p>
             <img src="icons/clouds.svg" className="weather-icon" />
             <p className="temperature">20º</p>
           </li>
-          <li className="weather-list">
+          <li className="weather-item">
             <p className="time">00:00</p>
             <img src="icons/clouds.svg" className="weather-icon" />
             <p className="temperature">20º</p>
           </li>
-          <li className="weather-list">
+          <li className="weather-item">
             <p className="time">00:00</p>
             <img src="icons/clouds.svg" className="weather-icon" />
             <p className="temperature">20º</p>
           </li>
-          <li className="weather-list">
+          <li className="weather-item">
             <p className="time">00:00</p>
             <img src="icons/clouds.svg" className="weather-icon" />
             <p className="temperature">20º</p>
           </li>
-          <li className="weather-list">
+          <li className="weather-item">
             <p className="time">00:00</p>
             <img src="icons/clouds.svg" className="weather-icon" />
             <p className="temperature">20º</p>
