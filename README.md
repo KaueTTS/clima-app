@@ -47,7 +47,7 @@ npm install
 
 < INICIADORES >
 
-
+npm run dev
 
 ```
 
