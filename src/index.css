@@ -106,8 +106,30 @@ body {
     padding: 20px 0 50px;
 }
 
+.current-weather .weather-icon {
+    width: 140px;
+    aspect-ratio: 1;
+}
+
+.current-weather .temperature {
+    margin: 18px 0;
+    display: flex;
+    font-size: 3.38rem;
+}
+
+.current-weather .temperature span {
+    font-size: 1.56rem;
+    font-weight: 400;
+    margin: 5px 0 0 2px;
+}
+
+.current-weather .description {
+    font-size: 1.25rem;
+}
+
 .hourly-forecast .weather-list {
     display: flex;
+    list-style: none;
 }
 
 .hourly-forecast .weather-item .weather-icon {
