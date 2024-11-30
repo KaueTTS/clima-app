@@ -74,6 +74,9 @@ body {
 .search-section .location-button {
     height: 54px;
     width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     color: #fff;
     cursor: pointer;
@@ -81,6 +84,10 @@ body {
     background: rgba(255, 255, 255, 0.01);
     border: 1px solid rgba(255, 255, 255, 0.25);
     transition: 0.2s ease;
+}
+
+.search-section .location-button span {
+    font-size: 1.3rem;
 }
 
 .search-section .location-button:hover {
