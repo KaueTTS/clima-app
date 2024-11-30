@@ -5,7 +5,7 @@
 </p>
 
 > [!NOTE]
-> Esse projeto pode ter alterações no futuro.*
+> Esse projeto pode ter alterações no futuro.
 
 ### Tópicos
 
