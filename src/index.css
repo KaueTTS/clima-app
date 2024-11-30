@@ -1,4 +1,4 @@
-/* @import url("fontgoogle"); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 * {
     margin: 0;
@@ -59,11 +59,33 @@ body {
     padding: 0 20px 0 50px;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: 0.1s ease;
+}
+
+.search-section .search-input:focus {
+    border-color: #a38cd9;
 }
 
 .search-section .search-input::placeholder {
     color: #ddd;
     text-transform: none;
+}
+
+.search-section .location-button {
+    height: 54px;
+    width: 56px;
+    flex-shrink: 0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: 0.2s ease;
+}
+
+.search-section .location-button:hover {
+    color: #b39fdf;
+    border-color: #a38cd9;
 }
 
 .weather-section :where(h2, p) {
