@@ -1,61 +1,21 @@
+import CurrentWeather from "./components/CurrentWeather"
+import HourlyWeatherItem from "./components/HourlyWeatherItem"
+import SearchSection from "./components/SearchSection"
+
 const App = () => {
   return <div className="container">
     
     {/* Search Section*/}
-    <div className="search-section">
-      <form action="#" className="search-form">
-      <span className="material-symbols-rounded">search</span>
-        <input type="search" placeholder="Enter a city name" 
-        className="search-input" required/>
-      </form>
-      <button className="location-button">
-        <span className="material-symbols-rounded">my_location</span>
-      </button>
-    </div>
+    <SearchSection />
 
     {/* Weather Section */}
     <div className="weather-section">
-      <div className="current-weather">
-        <img src="icons/clouds.svg" className="weather-icon" />
-        <h2 className="temperature">
-          20 <span>ºC</span>
-        </h2>
-        <p className="description">Partly cloudy</p>
-      </div>
+      <CurrentWeather />
 
       {/* Hourly Weather forecast list */}
       <div className="hourly-forecast">
         <ul className="weather-list">
-          <li className="weather-item">
-            <p className="time">00:00</p>
-            <img src="icons/clouds.svg" className="weather-icon" />
-            <p className="temperature">20º</p>
-          </li>
-          <li className="weather-item">
-            <p className="time">00:00</p>
-            <img src="icons/clouds.svg" className="weather-icon" />
-            <p className="temperature">20º</p>
-          </li>
-          <li className="weather-item">
-            <p className="time">00:00</p>
-            <img src="icons/clouds.svg" className="weather-icon" />
-            <p className="temperature">20º</p>
-          </li>
-          <li className="weather-item">
-            <p className="time">00:00</p>
-            <img src="icons/clouds.svg" className="weather-icon" />
-            <p className="temperature">20º</p>
-          </li>
-          <li className="weather-item">
-            <p className="time">00:00</p>
-            <img src="icons/clouds.svg" className="weather-icon" />
-            <p className="temperature">20º</p>
-          </li>
-          <li className="weather-item">
-            <p className="time">00:00</p>
-            <img src="icons/clouds.svg" className="weather-icon" />
-            <p className="temperature">20º</p>
-          </li>
+          <HourlyWeatherItem />
         </ul>
       </div>
     </div>
