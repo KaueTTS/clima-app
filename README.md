@@ -18,10 +18,13 @@
 
 ## Descrição do projeto
 
-EM BREVE
+O projeto Clima Tempo é uma aplicação web que fornece informações meteorológicas de maneira simples e acessível.
 
 ### Funcionalidades Principais
-> ***EM BREVE:*** EM BREVE
+> ***Clima Atual:*** Informações em tempo real sobre as condições climáticas da cidade pesquisada. <br>
+> ***Previsão de 24 Horas:*** Uma previsão detalhada para as próximas 24 horas.
+
+O design da aplicação é responsivo e intuitivo, permitindo que usuários de qualquer dispositivo acessem as informações de maneira rápida e eficiente.
 
 ## Tecnologias
 
