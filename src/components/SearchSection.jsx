@@ -1,4 +1,4 @@
-const SearchSection = () => {
+const SearchSection = ({ getWeatherDetails }) => {
     const API_KEY = import.meta.env.VITE_API_KEY
     
     {/* Buscar clima da cidade no input */}
@@ -13,7 +13,7 @@ const SearchSection = () => {
         <div className="search-section">
             <form action="#" className="search-form" onSubmit={handleCitySearch}>
                 <span className="material-symbols-rounded">search</span>
-                <input type="search" placeholder="Enter a city name" 
+                <input type="search" placeholder="City name in ENGLISH" 
                 className="search-input" required/>
             </form>
             <button className="location-button">
