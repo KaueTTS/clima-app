@@ -265,22 +265,16 @@ As issues no GitHub são usadas para gerenciar tarefas, bugs e sugestões em pro
 
 ### Padrão de Issue nos projetos
 
-|<h4 align="center">Titulo da tarefa criada</h4>                                                          |
-|---------------------------------------------------------------------------------------------------------|
-|<img src="./images/image-3.png" align="center" alt="Issues Title">                                       |
-|<p align="center">Entre colchetes, colocar o tipo de tarefa para realização (FEAT, STYLE, FIX...)</p>    |
-|<p align="center">Depois dos colchetes, colocar aonde será feito a alteração (FRONT-END, BACK-END...)</p>|
+|<h4 align="center">Titulo da tarefa criada</h4>                                                          |<h4 align="center">Descrição da tarefa criada</h4>                                                     |
+|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+|<div align="center"><img src="./images/image-3.png" alt="Issues Title"></div>                            |<div align="center"><img src="./images/image-1.png" align="center" alt="Issues Description"></div>     |
+|<p align="center">Entre colchetes, colocar o tipo de tarefa para realização (FEAT, STYLE, FIX...)</p>    |<p align="center">Nas mudanças necessárias sempre coloque os pontos importantes da issue</p>           |
+|<p align="center">Depois dos colchetes, colocar aonde será feito a alteração (FRONT-END, BACK-END...)</p>|<p align="center">Na lista de verificação coloque todas as tarefas que realizou ou vai realizar</p>    |
 |<p align="center">Por fim, colocar onde será feitas as alterações (CURRENT WEAHTER, NO APP TODO...)</p>  |
-
-|<h4 align="center">Descrição da tarefa criada</h4>                                                     |
-|-------------------------------------------------------------------------------------------------------|
-|<img src="./images/image-1.png" align="center" alt="Issues Description">                               |
-|<p align="center">Nas mudanças necessárias sempre coloque os pontos importantes da issue</p>           |
-|<p align="center">Na lista de verificação coloque todas as tarefas que realizou ou vai realizar</p>    |
 
 |<h4 align="center">Resultado</h4>                                                                      |
 |-------------------------------------------------------------------------------------------------------|
-|<img src="./images/image.png" align="center" alt="Issues Result">|
+|<div align="center"><img src="./images/image.png" align="center" alt="Issues Result"></div>            |
 
 
 ## Pull Request
