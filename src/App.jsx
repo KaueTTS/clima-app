@@ -1,14 +1,21 @@
+import { useState } from "react"
 import CurrentWeather from "./components/CurrentWeather"
 import HourlyWeatherItem from "./components/HourlyWeatherItem"
 import SearchSection from "./components/SearchSection"
 
 const App = () => {
+  const [currentWeather, setCurrentWeather] = useState({})
+  
   {/* Busca detalhes do clima com base no URL da API */}
   const getWeatherDetails = async (API_URL) => {
     try {
       const response = await fetch(API_URL)
       const data = await response.json()
-      console.log(data)
+      
+      const temperature = Math.floor(data.current.temp_c)
+      const description = data.current.condition.text
+
+      setCurrentWeather({temperature, description})
     } catch (error) {
       console.log(error)
     }
@@ -21,7 +28,7 @@ const App = () => {
 
     {/* Weather Section */}
     <div className="weather-section">
-      <CurrentWeather />
+      <CurrentWeather currentWeather={currentWeather}/>
 
       {/* Hourly Weather forecast list */}
       <div className="hourly-forecast">
