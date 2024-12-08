@@ -270,11 +270,12 @@ As issues no GitHub são usadas para gerenciar tarefas, bugs e sugestões em pro
 |<div align="center"><img src="./images/image-3.png" alt="Issues Title"></div>                            |<div align="center"><img src="./images/image-1.png" align="center" alt="Issues Description"></div>     |
 |<p align="center">Entre colchetes, colocar o tipo de tarefa para realização (FEAT, STYLE, FIX...)</p>    |<p align="center">Nas mudanças necessárias sempre coloque os pontos importantes da issue</p>           |
 |<p align="center">Depois dos colchetes, colocar aonde será feito a alteração (FRONT-END, BACK-END...)</p>|<p align="center">Na lista de verificação coloque todas as tarefas que realizou ou vai realizar</p>    |
-|<p align="center">Por fim, colocar onde será feitas as alterações (CURRENT WEAHTER, NO APP TODO...)</p>  |
+|<p align="center">Por fim, colocar onde será feitas as alterações (CURRENT WEAHTER, NO APP TODO...)</p>  |<p align="center">----------</p>                                                                       |
 
-|<h4 align="center">Resultado</h4>                                                                      |
-|-------------------------------------------------------------------------------------------------------|
-|<div align="center"><img src="./images/image.png" align="center" alt="Issues Result"></div>            |
+
+|<h4 align="center">Resultado</h4>                                                                        |
+|---------------------------------------------------------------------------------------------------------|
+|<div align="center"><img src="./images/image.png" align="center" alt="Issues Result"></div>              |
 
 
 ## Pull Request
@@ -283,37 +284,40 @@ Os pull requests no GitHub são usados para propor alterações em um repositór
 
 ### Padrão de Pull Request nos projetos
 
+|<h4 align="center"></h4>                                                                                 |<h4 align="center"></h4>                                                                                 |
+|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+|<div align="center"></div>                                                                               |<div align="center"></div>                                                                               |
 
 ## Geral
 
 Criar um projeto de qualidade envolve boas práticas de desenvolvimento, organização, e atenção aos detalhes. Aqui estão os principais pilares:
 
 1. **Estruturação e Organização**
-> *Pastas e arquivos organizados:* Separe componentes, serviços, estilos e configurações em diretórios específicos. <br>
-> *Nomes significativos:* Dê nomes intuitivos a variáveis, funções e arquivos, refletindo suas responsabilidades. <br>
+> ***Pastas e arquivos organizados:*** Separe componentes, serviços, estilos e configurações em diretórios específicos. <br>
+> ****Nomes significativos:*** Dê nomes intuitivos a variáveis, funções e arquivos, refletindo suas responsabilidades. <br>
 
 2. **Código Limpo e Legível**
-> *Princípios do Clean Code:* Evite duplicação, mantenha funções pequenas e responsabilidades claras.
-> *Comentários relevantes:* Explique lógica complexa ou decisões não triviais, mas evite comentar o óbvio.
-> *Formatação consistente:* Use ferramentas como Prettier ou ESLint para manter o código padronizado.
+> ***Princípios do Clean Code:*** Evite duplicação, mantenha funções pequenas e responsabilidades claras. <br>
+> ***Comentários relevantes:*** Explique lógica complexa ou decisões não triviais, mas evite comentar o óbvio. <br>
+> ***Formatação consistente:*** Use ferramentas como Prettier ou ESLint para manter o código padronizado. <br>
 
 3. **Boas Práticas de Desenvolvimento**
-> Controle de versão: Utilize Git com commits frequentes e mensagens descritivas.
-> Documentação: Crie um README detalhado e, se necessário, documentação técnica com instruções de uso e arquitetura.
-> Testes: Inclua testes unitários e funcionais para garantir confiabilidade.
+> Controle de versão: Utilize Git com commits frequentes e mensagens descritivas. <br>
+> Documentação: Crie um README detalhado e, se necessário, documentação técnica com instruções de uso e arquitetura. <br>
+> Testes: Inclua testes unitários e funcionais para garantir confiabilidade. <br>
 
 4. **Uso de Padrões e Convenções**
-> Padrões de projeto: Implemente design patterns (e.g., Factory, Singleton) quando aplicável.
-> Boa escolha de tecnologias: Use ferramentas adequadas ao problema e ao escopo do projeto.
+> Padrões de projeto: Implemente design patterns (e.g., Factory, Singleton) quando aplicável. <br>
+> Boa escolha de tecnologias: Use ferramentas adequadas ao problema e ao escopo do projeto. <br>
 
 5. **Manutenibilidade**
-> Separação de responsabilidades: Siga o princípio de responsabilidade única (SRP).
-> Dependências atualizadas: Atualize bibliotecas e frameworks regularmente para evitar problemas de segurança.
-> Gestão de erros: Crie mensagens de erro úteis e evite expor informações sensíveis.
+> Separação de responsabilidades: Siga o princípio de responsabilidade única (SRP). <br>
+> Dependências atualizadas: Atualize bibliotecas e frameworks regularmente para evitar problemas de segurança. <br>
+> Gestão de erros: Crie mensagens de erro úteis e evite expor informações sensíveis. <br>
 
 6. **Experiência do Usuário**
-> Interface intuitiva: Mantenha o design simples, responsivo e funcional.
-> Feedback ao usuário: Notificações ou mensagens para ações concluídas ou erros encontrados.
+> ***Interface intuitiva:*** Mantenha o design simples, responsivo e funcional. <br>
+> ***Feedback ao usuário:*** Notificações ou mensagens para ações concluídas ou erros encontrados. <br>
 
 #### Para saber mais sobre COMMITS
 > Acesse: https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits <br>
