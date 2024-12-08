@@ -266,7 +266,7 @@ As issues no GitHub são usadas para gerenciar tarefas, bugs e sugestões em pro
 
 |<h4 align="center">Titulo da tarefa criada</h4>                                                          |
 |---------------------------------------------------------------------------------------------------------|
-|![Issues Title](image-3.png)                                                                             |
+|![Issues Title](./images/image-3.png)                                                                             |
 |<p align="center">Entre colchetes, colocar o tipo de tarefa para realização (FEAT, STYLE, FIX...)</p>    |
 |<p align="center">Depois dos colchetes, colocar aonde será feito a alteração (FRONT-END, BACK-END...)</p>|
 |<p align="center">Por fim, colocar onde será feitas as alterações (CURRENT WEAHTER, NO APP TODO...)</p>  |
@@ -274,11 +274,11 @@ As issues no GitHub são usadas para gerenciar tarefas, bugs e sugestões em pro
 
 |<h4 align="center">Descrição da tarefa criada</h4>                                                     |
 |-------------------------------------------------------------------------------------------------------|
-|![Issues Text](image-1.png)                                                                            |
+|![Issues Text](./images/image-1.png)                                                                            |
 
 ### Resultado
 
-![Issues Result](image.png)
+![Issues Result](./images/image.png)
 
 ## Pull Request
 
