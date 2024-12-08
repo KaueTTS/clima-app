@@ -8,7 +8,6 @@
   - [Principais comandos do Git](#principais-comandos-do-git)
 - [Issues](#issues)
   - [Padrão de Issue nos projetos](#padrão-de-issue-nos-projetos)
-  - [Resultado](#resultado)
 - [Pull Request](#pull-request)
   - [Padrão de Pull Request nos projetos](#padrão-de-pull-request-nos-projetos)
 - [Geral](#geral)
@@ -16,9 +15,10 @@
     - [Para saber mais sobre ISSUES](#para-saber-mais-sobre-issues)
     - [Para saber mais sobre PULL REQUEST](#para-saber-mais-sobre-pull-request)
 
+
 ## Commits
 
-
+Os commits no Git registram alterações no código, criando um histórico de versões. Cada commit inclui uma mensagem explicando a mudança, permitindo rastrear e entender o desenvolvimento do projeto.
 
 ### Tipos
 
@@ -258,6 +258,7 @@
 
 - `git push origin qa` - Envia os commits para o repositório principal do origin, nesse caso é a branch "qa". 
 
+
 ## Issues
 
 As issues no GitHub são usadas para gerenciar tarefas, bugs e sugestões em projetos. Permitem descrever problemas, atribuir responsáveis, usar etiquetas para categorizar e colaborar por meio de comentários. São essenciais para organizar e acompanhar o progresso no desenvolvimento.
@@ -266,55 +267,59 @@ As issues no GitHub são usadas para gerenciar tarefas, bugs e sugestões em pro
 
 |<h4 align="center">Titulo da tarefa criada</h4>                                                          |
 |---------------------------------------------------------------------------------------------------------|
-|![Issues Title](./images/image-3.png)                                                                             |
+|<img src="./images/image-3.png" align="center" alt="Issues Title">                                       |
 |<p align="center">Entre colchetes, colocar o tipo de tarefa para realização (FEAT, STYLE, FIX...)</p>    |
 |<p align="center">Depois dos colchetes, colocar aonde será feito a alteração (FRONT-END, BACK-END...)</p>|
 |<p align="center">Por fim, colocar onde será feitas as alterações (CURRENT WEAHTER, NO APP TODO...)</p>  |
 
-
 |<h4 align="center">Descrição da tarefa criada</h4>                                                     |
 |-------------------------------------------------------------------------------------------------------|
-|![Issues Text](./images/image-1.png)                                                                            |
+|<img src="./images/image-1.png" align="center" alt="Issues Description">                               |
+|<p align="center">Nas mudanças necessárias sempre coloque os pontos importantes da issue</p>           |
+|<p align="center">Na lista de verificação coloque todas as tarefas que realizou ou vai realizar</p>    |
 
-### Resultado
+|<h4 align="center">Resultado</h4>                                                                      |
+|-------------------------------------------------------------------------------------------------------|
+|<img src="./images/image.png" align="center" alt="Issues Result">|
 
-![Issues Result](./images/image.png)
 
 ## Pull Request
 
+Os pull requests no GitHub são usados para propor alterações em um repositório. Permitem revisar, discutir e aprovar o código antes de integrá-lo ao projeto principal. Facilitam a colaboração e o controle de qualidade no desenvolvimento.
+
 ### Padrão de Pull Request nos projetos
+
 
 ## Geral
 
 Criar um projeto de qualidade envolve boas práticas de desenvolvimento, organização, e atenção aos detalhes. Aqui estão os principais pilares:
 
-1. Estruturação e Organização
-Arquitetura clara: Utilize padrões como MVC, MVVM ou outros que melhor se adequem ao projeto.
-Pastas e arquivos organizados: Separe componentes, serviços, estilos e configurações em diretórios específicos.
-Nomes significativos: Dê nomes intuitivos a variáveis, funções e arquivos, refletindo suas responsabilidades.
+1. **Estruturação e Organização**
+> *Pastas e arquivos organizados:* Separe componentes, serviços, estilos e configurações em diretórios específicos. <br>
+> *Nomes significativos:* Dê nomes intuitivos a variáveis, funções e arquivos, refletindo suas responsabilidades. <br>
 
-2. Código Limpo e Legível
-Princípios do Clean Code: Evite duplicação, mantenha funções pequenas e responsabilidades claras.
-Comentários relevantes: Explique lógica complexa ou decisões não triviais, mas evite comentar o óbvio.
-Formatação consistente: Use ferramentas como Prettier ou ESLint para manter o código padronizado.
+2. **Código Limpo e Legível**
+> *Princípios do Clean Code:* Evite duplicação, mantenha funções pequenas e responsabilidades claras.
+> *Comentários relevantes:* Explique lógica complexa ou decisões não triviais, mas evite comentar o óbvio.
+> *Formatação consistente:* Use ferramentas como Prettier ou ESLint para manter o código padronizado.
 
-3. Boas Práticas de Desenvolvimento
-Controle de versão: Utilize Git com commits frequentes e mensagens descritivas.
-Documentação: Crie um README detalhado e, se necessário, documentação técnica com instruções de uso e arquitetura.
-Testes: Inclua testes unitários e funcionais para garantir confiabilidade.
+3. **Boas Práticas de Desenvolvimento**
+> Controle de versão: Utilize Git com commits frequentes e mensagens descritivas.
+> Documentação: Crie um README detalhado e, se necessário, documentação técnica com instruções de uso e arquitetura.
+> Testes: Inclua testes unitários e funcionais para garantir confiabilidade.
 
-4. Uso de Padrões e Convenções
-Padrões de projeto: Implemente design patterns (e.g., Factory, Singleton) quando aplicável.
-Boa escolha de tecnologias: Use ferramentas adequadas ao problema e ao escopo do projeto.
+4. **Uso de Padrões e Convenções**
+> Padrões de projeto: Implemente design patterns (e.g., Factory, Singleton) quando aplicável.
+> Boa escolha de tecnologias: Use ferramentas adequadas ao problema e ao escopo do projeto.
 
-5. Manutenibilidade
-Separação de responsabilidades: Siga o princípio de responsabilidade única (SRP).
-Dependências atualizadas: Atualize bibliotecas e frameworks regularmente para evitar problemas de segurança.
-Gestão de erros: Crie mensagens de erro úteis e evite expor informações sensíveis.
+5. **Manutenibilidade**
+> Separação de responsabilidades: Siga o princípio de responsabilidade única (SRP).
+> Dependências atualizadas: Atualize bibliotecas e frameworks regularmente para evitar problemas de segurança.
+> Gestão de erros: Crie mensagens de erro úteis e evite expor informações sensíveis.
 
-6. Experiência do Usuário
-Interface intuitiva: Mantenha o design simples, responsivo e funcional.
-Feedback ao usuário: Notificações ou mensagens para ações concluídas ou erros encontrados.
+6. **Experiência do Usuário**
+> Interface intuitiva: Mantenha o design simples, responsivo e funcional.
+> Feedback ao usuário: Notificações ou mensagens para ações concluídas ou erros encontrados.
 
 #### Para saber mais sobre COMMITS
 > Acesse: https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits <br>
