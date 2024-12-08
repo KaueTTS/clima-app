@@ -294,7 +294,7 @@ Criar um projeto de qualidade envolve boas práticas de desenvolvimento, organiz
 
 1. **Estruturação e Organização**
 > ***Pastas e arquivos organizados:*** Separe componentes, serviços, estilos e configurações em diretórios específicos. <br>
-> ****Nomes significativos:*** Dê nomes intuitivos a variáveis, funções e arquivos, refletindo suas responsabilidades. <br>
+> ***Nomes significativos:*** Dê nomes intuitivos a variáveis, funções e arquivos, refletindo suas responsabilidades. <br>
 
 2. **Código Limpo e Legível**
 > ***Princípios do Clean Code:*** Evite duplicação, mantenha funções pequenas e responsabilidades claras. <br>
@@ -302,9 +302,9 @@ Criar um projeto de qualidade envolve boas práticas de desenvolvimento, organiz
 > ***Formatação consistente:*** Use ferramentas como Prettier ou ESLint para manter o código padronizado. <br>
 
 3. **Boas Práticas de Desenvolvimento**
-> Controle de versão: Utilize Git com commits frequentes e mensagens descritivas. <br>
-> Documentação: Crie um README detalhado e, se necessário, documentação técnica com instruções de uso e arquitetura. <br>
-> Testes: Inclua testes unitários e funcionais para garantir confiabilidade. <br>
+> ***Controle de versão:*** Utilize Git com commits frequentes e mensagens descritivas. <br>
+> ***Documentação:*** Crie um README detalhado e, se necessário, documentação técnica com instruções de uso e arquitetura. <br>
+> ***Testes:*** Inclua testes unitários e funcionais para garantir confiabilidade. <br>
 
 4. **Uso de Padrões e Convenções**
 > Padrões de projeto: Implemente design patterns (e.g., Factory, Singleton) quando aplicável. <br>
