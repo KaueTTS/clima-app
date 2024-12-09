@@ -16,7 +16,7 @@ const App = () => {
       const temperature = Math.floor(data.current.temp_c)
       const description = data.current.condition.text
       const weatherIcon = Object.keys(weatherCodes).find(icon => weatherCodes[icon].includes(data.current.condition.code))
-      console.log(weatherIcon)
+
       setCurrentWeather({temperature, description, weatherIcon})
     } catch (error) {
       console.log(error)

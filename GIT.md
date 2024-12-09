@@ -265,7 +265,7 @@ As issues no GitHub são usadas para gerenciar tarefas, bugs e sugestões em pro
 
 ### Padrão de Issue nos projetos
 
-|<h4 align="center">Titulo da tarefa criada</h4>                                                          |<h4 align="center">Descrição da tarefa criada</h4>                                                     |
+|<h4 align="center">Título da tarefa criada</h4>                                                          |<h4 align="center">Descrição da tarefa criada</h4>                                                     |
 |---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 |<div align="center"><img src="./images/image-3.png" alt="Issues Title"></div>                            |<div align="center"><img src="./images/image-1.png" align="center" alt="Issues Description"></div>     |
 |<p align="center">Entre colchetes, colocar o tipo de tarefa para realização (FEAT, STYLE, FIX...)</p>    |<p align="center">Nas mudanças necessárias sempre coloque os pontos importantes da issue</p>           |
@@ -284,7 +284,7 @@ Os pull requests no GitHub são usados para propor alterações em um repositór
 
 ### Padrão de Pull Request nos projetos
 
-|<h4 align="center"></h4>                                                                                 |<h4 align="center"></h4>                                                                                 |
+|<h4 align="center">Título da tarefa criada</h4>                                                          |<h4 align="center">Descrição da tarefa criada</h4>                                                       |
 |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 |<div align="center"></div>                                                                               |<div align="center"></div>                                                                               |
 
