@@ -306,25 +306,20 @@ Criar um projeto de qualidade envolve boas práticas de desenvolvimento, organiz
 > ***Documentação:*** Crie um README detalhado e, se necessário, documentação técnica com instruções de uso e arquitetura. <br>
 > ***Testes:*** Inclua testes unitários e funcionais para garantir confiabilidade. <br>
 
-4. **Uso de Padrões e Convenções**
-> Padrões de projeto: Implemente design patterns (e.g., Factory, Singleton) quando aplicável. <br>
-> Boa escolha de tecnologias: Use ferramentas adequadas ao problema e ao escopo do projeto. <br>
+4. **Manutenibilidade**
+> ***Dependências atualizadas:*** Atualize bibliotecas e frameworks regularmente para evitar problemas de segurança. <br>
+> ***Gestão de erros:*** Crie mensagens de erro úteis e evite expor informações sensíveis. <br>
 
-5. **Manutenibilidade**
-> Separação de responsabilidades: Siga o princípio de responsabilidade única (SRP). <br>
-> Dependências atualizadas: Atualize bibliotecas e frameworks regularmente para evitar problemas de segurança. <br>
-> Gestão de erros: Crie mensagens de erro úteis e evite expor informações sensíveis. <br>
-
-6. **Experiência do Usuário**
+5. **Experiência do Usuário**
 > ***Interface intuitiva:*** Mantenha o design simples, responsivo e funcional. <br>
 > ***Feedback ao usuário:*** Notificações ou mensagens para ações concluídas ou erros encontrados. <br>
 
 #### Para saber mais sobre COMMITS
-> Acesse: https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits <br>
-> Acesse: https://github.com/iuricode/padroes-de-commits/blob/main/README.md
+- Acesse: https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits <br>
+- Acesse: https://github.com/iuricode/padroes-de-commits/blob/main/README.md
 
 #### Para saber mais sobre ISSUES
-> Acesse: https://docs.github.com/pt/issues/tracking-your-work-with-issues/about-issues
+- Acesse: https://docs.github.com/pt/issues/tracking-your-work-with-issues/about-issues
 
 #### Para saber mais sobre PULL REQUEST
-> Acesse: https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+- Acesse: https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
