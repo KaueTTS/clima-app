@@ -16,6 +16,7 @@ const App = () => {
       const description = data.current.condition.text
 
       setCurrentWeather({temperature, description})
+      console.log(data)
     } catch (error) {
       console.log(error)
     }
