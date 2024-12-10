@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useRef, useState } from "react"
 import CurrentWeather from "./components/CurrentWeather"
 import HourlyWeatherItem from "./components/HourlyWeatherItem"
 import SearchSection from "./components/SearchSection"
@@ -7,6 +7,7 @@ import { weatherCodes } from "./constants"
 const App = () => {
   const [currentWeather, setCurrentWeather] = useState({})
   const [hourlyForecast, setHourlyForecast] = useState([])
+  const searchInputRef = useRef(null)
 
   {/* Cálculo para buscar as próximoas 24h */}
   const filterHourlyForecast = (hourlyData) => {
@@ -37,6 +38,7 @@ const App = () => {
       {/* Clima tempo para as próximas 24h */}
       const combinedHourlyData = [...data.forecast.forecastday[0].hour, ...data.forecast.forecastday[1].hour]
 
+      searchInputRef.current.value = data.location.name
       filterHourlyForecast(combinedHourlyData)
     } catch (error) {
       console.error("Erro ao buscar os dados do clima", error)
@@ -46,7 +48,7 @@ const App = () => {
   return <div className="container">
     
     {/* Search Section*/}
-    <SearchSection getWeatherDetails={getWeatherDetails} />
+    <SearchSection getWeatherDetails={getWeatherDetails} searchInputRef={searchInputRef} />
 
     {/* Weather Section */}
     <div className="weather-section">
