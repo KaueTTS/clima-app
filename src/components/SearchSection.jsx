@@ -16,6 +16,8 @@ const SearchSection = ({ getWeatherDetails, searchInputRef}) => {
                 const {latitude, longitude} = position.coords
                 const API_URL = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${latitude},${longitude}&lang=pt&days=2`
                 getWeatherDetails(API_URL)
+
+                window.innerWidth >= 768 && searchInputRef.current.focus()
             },
             () => {
                 alert("Acesso ao local negado. Ative as permissões para usar essa função.")
