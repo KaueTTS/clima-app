@@ -1,7 +1,7 @@
 <h1 align="center">Aplicativo de clima</h1>
 
 <p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=0065fd&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=green&style=for-the-badge"/>
 </p>
 
 > [!NOTE]
@@ -29,7 +29,7 @@ O design da aplicação é responsivo e intuitivo, permitindo que usuários de q
 ## Tecnologias
 
 <div width="140px">
-    <img src="https://skillicons.dev/icons?i=vscode,react,css,vite" />
+    <img src="https://skillicons.dev/icons?i=vscode,react,css,vite,nodejs" />
 </div>
 
 ## Projeto em funcionamento
