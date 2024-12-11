@@ -263,30 +263,48 @@ Os commits no Git registram alterações no código, criando um histórico de ve
 
 As issues no GitHub são usadas para gerenciar tarefas, bugs e sugestões em projetos. Permitem descrever problemas, atribuir responsáveis, usar etiquetas para categorizar e colaborar por meio de comentários. São essenciais para organizar e acompanhar o progresso no desenvolvimento.
 
-### Padrão de Issue nos projetos
+<div align="center">
 
-|<h4 align="center">Título da tarefa criada</h4>                                                          |<h4 align="center">Descrição da tarefa criada</h4>                                                     |
-|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-|<div align="center"><img src="./images/image-3.png" alt="Issues Title"></div>                            |<div align="center"><img src="./images/image-1.png" align="center" alt="Issues Description"></div>     |
-|<p align="center">Entre colchetes, colocar o tipo de tarefa para realização (FEAT, STYLE, FIX...)</p>    |<p align="center">Nas mudanças necessárias sempre coloque os pontos importantes da issue</p>           |
-|<p align="center">Depois dos colchetes, colocar aonde será feito a alteração (FRONT-END, BACK-END...)</p>|<p align="center">Na lista de verificação coloque todas as tarefas que realizou ou vai realizar</p>    |
-|<p align="center">Por fim, colocar onde será feitas as alterações (CURRENT WEAHTER, NO APP TODO...)</p>  |<p align="center">----------</p>                                                                       |
+  ### Padrão de Issue nos projetos
+
+  |<h4 align="center">Título da tarefa criada</h4>                                                          |<h4 align="center">Descrição da tarefa criada</h4>                                                     |
+  |---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+  |<div align="center"><img src="./images/issues_title.png" alt="Issues Title"></div>                       |<div align="center"><img src="./images/issues_desc.png" align="center" alt="Issues Description"></div> |
+  |<p align="center">Entre colchetes, colocar o tipo de tarefa para realização (FEAT, STYLE, FIX...)</p>    |<p align="center">Nas mudanças necessárias sempre coloque os pontos importantes da issue</p>           |
+  |<p align="center">Depois dos colchetes, colocar aonde será feito a alteração (FRONT-END, BACK-END...)</p>|<p align="center">Na lista de verificação coloque todas as tarefas que realizou ou vai realizar</p>    |
+  |<p align="center">Por fim, colocar onde será feitas as alterações (CURRENT WEAHTER, NO APP TODO...)</p>  |<p align="center">---------------</p>                                                                  |
 
 
-|<h4 align="center">Resultado</h4>                                                                        |
-|---------------------------------------------------------------------------------------------------------|
-|<div align="center"><img src="./images/image.png" align="center" alt="Issues Result"></div>              |
+  |<h4 align="center">Resultado</h4>                                                                        |
+  |---------------------------------------------------------------------------------------------------------|
+  |<div align="center"><img src="./images/issues_result.png" align="center" alt="Issues Result"></div>      |
+
+</div>
 
 
 ## Pull Request
 
 Os pull requests no GitHub são usados para propor alterações em um repositório. Permitem revisar, discutir e aprovar o código antes de integrá-lo ao projeto principal. Facilitam a colaboração e o controle de qualidade no desenvolvimento.
 
-### Padrão de Pull Request nos projetos
+<div align="center">
 
-|<h4 align="center">Título da tarefa criada</h4>                                                          |<h4 align="center">Descrição da tarefa criada</h4>                                                       |
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-|<div align="center"></div>                                                                               |<div align="center"></div>                                                                               |
+  ### Padrão de Pull Request nos projetos
+
+  |<h4 align="center">Título da tarefa criada</h4>                                                 |<h4 align="center">Descrição da tarefa criada</h4>                                                                           |
+  |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+  |<div align="center"><img src="./images/pr_title.png" alt="Issues Title"></div>                  |<div align="center"><img src="./images/pr_desc.png" alt="Issues Title"></div>                                                |
+  |<p align="center">Colocar o nome do projeto logo após o ícone 🔖</p>                           |<p align="center">Em fixed coloque o tipo de issue que tá atendendo (back, front, api ou outro)</p>                          |
+  |<p align="center">Depois colocar a versão que vai subir para a master ([v1.0.5], [v1.5.3])</p>  |<p align="center">Abaixo, sempre coloque "issues: tarefa_da_issue", apenas coloque "closed" quando for concluir a tarefas</p>|
+  |<p align="center">---------------</p>                                                           |<p align="center">Em tarefas realizadas, coloque o que foi feito da Issue (se não existir nenhuma issue sobre, crie)</p>     |
+  |<p align="center">---------------</p>                                                           |<p align="center">Em resultado, coloque o que mudou da interface</p>                                                         |
+  |<p align="center">---------------</p>                                                           |<p align="center">Se houver mudança apenas no código, coloque "Verificar o código" que nem no exemplo do resultado abaixo</p>|
+
+  |<h4 align="center">Resultado com alteração só no código</h4>                                             |<h4 align="center">Resultado com alteração na interface</h4>                                             |
+  |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+  |<div align="center"><img src="./images/pr_result_1.png" align="center" alt="Issues Result"></div>        |<div align="center"><img src="./images/pr_result_2.png" align="center" alt="Issues Result"></div>            |
+
+</div>
+
 
 ## Geral
 
