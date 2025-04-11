@@ -28,9 +28,20 @@ O design da aplicação é responsivo e intuitivo, permitindo que usuários de q
 
 ## Tecnologias
 
-<div width="140px">
-    <img src="https://skillicons.dev/icons?i=vscode,react,css,vite,nodejs" />
-</div>
+<details closed>
+<summary>Linguagens</summary>
+  <div width="140px">
+      <img src="https://skillicons.dev/icons?i=react,css,nodejs" />
+  </div>
+</details>
+
+<details closed>
+<summary>Ferramentas</summary>
+  <div width="140px">
+      <img src="https://skillicons.dev/icons?i=vscode,vite" />
+  </div>
+</details>
+
 
 ## Projeto em funcionamento
 

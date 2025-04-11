@@ -1,0 +1,16 @@
+/* Phone */
+@media (max-width: 624px) {
+    body,
+    .search-section {
+        padding: 22px;
+    }
+
+    .hourly-forecast {
+        padding: 16px 20px;
+    }
+
+    .no-results {
+        padding: 30px;
+        min-height: 458px;
+    }
+}
